@@ -1,5 +1,5 @@
---- client.c	2022-03-23 10:54:35.000000000 +0100
-+++ client.c	2022-03-24 14:57:45.000000000 +0100
+--- ../pgbouncer/src/client.c	2022-03-23 10:54:35.000000000 +0100
++++ ./src/client.c	2022-03-24 14:57:45.000000000 +0100
 @@ -541,10 +541,10 @@
  		} else if (strcmp(key, "application_name") == 0) {
  			set_appname(client, val);
